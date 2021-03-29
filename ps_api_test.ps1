@@ -10,7 +10,7 @@ $cred = Get-Credential
 # This will allow for self-signed SSL certs to work
 [System.Net.ServicePointManager]::ServerCertificateValidationCallback = { $true }
 
-$server = 'splunk.wsu.edu'
+$server = ''
 
 $url = "https://${server}:8000/services/search/jobs/export" # braces needed b/c the colon is otherwise a scope operator
 

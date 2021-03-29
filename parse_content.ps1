@@ -1,7 +1,7 @@
 
 function ImportData()
 {
-    $sourceFile = 'FAIS009AUGRWG.csv'
+    $sourceFile = ''
 
     $event_records = Get-Content -Path $sourceFile 
 
